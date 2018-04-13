@@ -3,10 +3,10 @@ two files:
 
 ## 1. picture
     
-    Change the image to the character painting.
-    Input: pic/im.jpg (300*150)
-    Output: results/1.jpg
-    Attention: If the input image's size change, the output image's size should also be resized.
+    Change the image to the character painting.  
+    Input: pic/im.jpg (300*150)  
+    Output: results/1.jpg  
+    Attention: If the input image's size change, the output image's size should also be resized.  
 
 ## 2. video
     
