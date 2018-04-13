@@ -11,6 +11,6 @@ two files:
 ## 2. video
     
     Change the video to the character video.
-    Input: boxing.mp4
+    _Input:_ boxing.mp4
     Output: saveVideo.avi
     More details: You can change the parameters to reach lower operation time or higher resolution ratio.
