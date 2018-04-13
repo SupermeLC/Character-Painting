@@ -14,7 +14,7 @@ else:
     rval = False
 
 #视频帧计数间隔频率
-timeF = 2
+timeF = 20
 #videosize(5:2)
 size_1 = 200
 size_2 = 80
@@ -59,7 +59,7 @@ fps = 12    #FPS movie=24 TV=25
 fourcc = cv2.VideoWriter_fourcc(*'MJPG')
 videoWriter = cv2.VideoWriter('saveVideo.avi',fourcc,fps,(size_1*3,size_2*5))#与图像大小一致
 
-for i in range(168):#图片数
+for i in range(16):#图片数
     frame = cv2.imread(img_root+str(i+1)+'.jpg')
     videoWriter.write(frame)
 videoWriter.release()
